@@ -57,6 +57,8 @@ Load the dataset and inspect its structure.
 
 df = pd.read_csv("creditcard.csv")
 df.head()
+
+
 2️⃣ Exploratory Data Analysis (EDA)
 
 Key analysis performed:
