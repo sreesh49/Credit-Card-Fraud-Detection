@@ -164,6 +164,8 @@ Precision	Reduces false fraud alerts
 Recall	Detects maximum fraud cases
 F1 Score	Balances precision and recall
 ROC-AUC	Measures overall model performance
+
+
 📁 Project Structure
 credit-card-fraud-detection
 │
