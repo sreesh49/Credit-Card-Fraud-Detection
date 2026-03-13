@@ -89,6 +89,8 @@ Handling class imbalance
 
 scaler = StandardScaler()
 df['Amount'] = scaler.fit_transform(df['Amount'].values.reshape(-1,1))
+
+
 4️⃣ Handling Imbalanced Data (Undersampling)
 
 Since fraudulent transactions are extremely rare, Random Undersampling was used to balance the dataset by reducing the number of non-fraudulent transactions.
@@ -170,16 +172,28 @@ credit-card-fraud-detection
 ├── README.md
 └── images
 🚀 How to Run the Project
+
+
 1️⃣ Clone the repository
+
 git clone https://github.com/yourusername/credit-card-fraud-detection.git
+
+
 2️⃣ Install dependencies
+
 pip install pandas numpy scikit-learn matplotlib seaborn
+
+
 3️⃣ Run the notebook
+
+
 jupyter notebook
 
 Open the notebook:
 
 fraud_detection_credit_card.ipynb
+
+
 📌 Future Improvements
 
 Implement advanced models such as:
